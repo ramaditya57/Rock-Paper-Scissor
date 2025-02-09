@@ -1,0 +1,78 @@
+<!-- 
+  File: index.html
+  Description: Rock Paper Scissors game by Kavan Bhavsar
+  Author: Kavan Bhavsar
+  Date: 19-10-2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author">
+  <meta name="description" content="Rock Paper Scissors">
+  <meta name="keywords" content="This is a rock paper scissors app using JavaScript">
+  <link rel="icon" href="assets/imgs/logo.jpg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+  <div id="body">
+    <div class="container">
+      <!-- Top Display -->
+      <div class="top">
+        <div class="score">
+          <h1>Player</h1>
+          <p class='plScore'>0</p>
+        </div>
+        <div class="score">
+          <h1>Computer</h1>
+          <p class='comScore'>0</p>
+        </div>
+      </div>
+
+      <!-- Middle Display -->
+      <div class="middle">
+        <!-- Display when loaded -->
+        <div class="first">
+          <h1>Rock Paper Scissors</h1>
+          <button class='start'>Start Playing</button>
+        </div>
+
+        <!-- Display when user starts to play -->
+        <div class='second'>
+          <!-- Hands Container -->
+          <div class="handsContainer">
+            <div class="playerHand">
+              <img class="player" src="assets/imgs/rock.png" alt="">
+            </div>
+            <div class="computerHand">
+              <img class="computer" src="assets/imgs/rock.png" alt="">
+            </div>
+          </div>
+          <!--- Message Area --->
+          <div class='messageDisplay'>
+            <h1>Choose an option</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Display -->
+      <div class="bottom">
+        <button class='btn rock'>Rock</button>
+        <button class='btn paper'>Paper</button>
+        <button class='btn scissors'>Scissors</button>
+      </div>
+    </div>
+
+    <div id='root'></div>
+  </div>
+</body>
+<script src='assets/js/script.js'></script>
+
+</html>
