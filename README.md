@@ -1,7 +1,7 @@
 # Rock Paper Scissors Game
 
 ## Description
-This is a simple Rock Paper Scissors game created by Kavan Bhavsar. It's a fun and interactive game that you can play against the computer.
+This is a simple Rock Paper Scissors game created by Ramaditya Chaudhary. It's a fun and interactive game that you can play against the computer.
 
 ## Features
 - Choose between Rock, Paper, and Scissors.
